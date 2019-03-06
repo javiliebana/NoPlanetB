@@ -6,22 +6,19 @@
     >
 
     <ImageView
+        android:id="@+id/planet"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/planet"
-        android:background="@drawable/planetearth"
-        />
-
-
+        android:background="@drawable/planetearth" />
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:orientation="vertical"
+        android:layout_marginTop="200dp"
         android:gravity="center"
-        android:layout_marginTop="100dp">
+        android:orientation="vertical">
 
         <com.mikhaellopez.circularimageview.CircularImageView
             android:id="@+id/cohete"
@@ -29,6 +26,7 @@
             android:layout_height="150dp"
             android:layout_centerHorizontal="true"
             android:src="@drawable/rocketlogo"
+            android:layout_marginTop="0dp"
             app:civ_border_color="#EEE"
             app:civ_border_width="0dp"
             app:civ_shadow="true"

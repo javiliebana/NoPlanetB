@@ -14,6 +14,12 @@
         android:background="@drawable/planetearth"
         />
 
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/vista"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -79,6 +85,7 @@
 
                     <TextView
                         android:id="@+id/texto"
+                        android:padding="15dp"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Whether from Aristotle’s claim in the Poetics and later in On Rhetoric that the act of creating metaphor is something that cannot be taught; or from I.A. Richard’s claim in The Philosophy of Rhetoric that metaphor is not only the main principle of language, but of thought as well—rhetoric and metaphor have shared a close bond. But the move towards posthuman rhetoric, whether technological, corporeal, or object-oriented, requires that rhetoric take a fresh look at its deployment and use of metaphor if its goal is to truly de-center the human subject (and, perhaps, language) from the rhetorical act. If rhetoric is to take part in any kind of posthumanism, its reliance upon and use of linguistic tropes must at minimum be reworked." />
@@ -100,7 +107,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                />
+                android:text="Button" />
 
             <Button
                 android:id="@+id/button3"
